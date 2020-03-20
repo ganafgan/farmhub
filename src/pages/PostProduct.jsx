@@ -42,9 +42,9 @@ class PostProduct extends React.Component{
                     <label htmlFor="">Nama Produk</label>
                     <input ref='name' type="text" className='form-control mb-3' placeholder='masukan nama produk'/>
                     <label htmlFor="">Harga Produk</label>
-                    <input ref='price' type="text" className='form-control mb-3' placeholder='masukan harga produk'/>
+                    <input ref='price' type="number" className='form-control mb-3' placeholder='masukan harga produk'/>
                     <label htmlFor="">Stok Produk</label>
-                    <input ref='stock'type="text" className='form-control mb-3' placeholder='masukan stok produk'/>
+                    <input ref='stock'type="number" className='form-control mb-3' placeholder='masukan stok produk'/>
                     <label htmlFor="">Gambar Produk</label>
                     <input ref='img_url' type="text" className='form-control mb-3' placeholder='masukan URL gambar produk'/>
                     <label htmlFor="">Deskripsi Produk</label>
