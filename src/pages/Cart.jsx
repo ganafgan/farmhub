@@ -178,7 +178,7 @@ class Cart extends React.Component{
                                             <p className="card-text">Total Harga</p>
                                         </div>
                                         <div className='col-md-4'>
-                                        <p className="card-text">{this.totalPrice()}</p>
+                                            <p className="card-text">{this.totalPrice()}</p>
                                         </div>
                                     </div>
                                 </div>
